@@ -6,7 +6,9 @@ import android.view.View;
 
 public class MyView extends View {
 
-    public MyView (Context Con) {
+
+    // コンストラクタ　（初期設定）
+  public  MyView (Context Con) {
         super(Con);
     }
 
