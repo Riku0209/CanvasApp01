@@ -36,6 +36,13 @@ public class MyView extends View {
         paint.setColor(Color.GREEN);
         paint.setStrokeWidth(60);
         canvas.drawRect(400,800,600,1000,paint);
+
+        //線
+        paint.setColor(Color.BLACK);
+        canvas.drawLine(0,0,canvas.getWidth(),canvas.getHeight(),paint);
+        canvas.drawLine(canvas.getWidth(),0,0,canvas.getHeight(),paint);
+        //三角形（パス）
+        
     }
 
 
